@@ -25,11 +25,11 @@
 		"@babel/plugin-proposal-export-namespace-from": "^7.18.9"
 	},
 	"resolutions": {
-		"metro": "^0.73.1",
+		"metro": "^0.74.0",
 		"metro-resolver": "^0.73.1"
 	},
 	"overrides": {
-		"metro": "^0.73.1",
+		"metro": "^0.74.0",
 		"metro-resolver": "^0.73.1"
 	},
 	"name": "inspo",
