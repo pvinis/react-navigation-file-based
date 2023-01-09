@@ -13,9 +13,7 @@ export default function Page() {
 				}}
 			>
 				<Text style={{ fontSize: 64, fontWeight: "bold" }}>Hello World</Text>
-				<Text style={{ fontSize: 36, color: "#38434D" }}>
-					This is the first page of your app.
-				</Text>
+				<Text style={{ fontSize: 36, color: "#38434D" }}>This is the first page of your app.</Text>
 				<Link href={{ pathname: "/second" }}>Go to second world</Link>
 				<Link href="/third">Go to third world</Link>
 				<Link href={{ pathname: "/third/fourth" }}>Go to fourth world</Link>
@@ -26,6 +24,10 @@ export default function Page() {
 				<Link href="/posts2/wow123/text">Go to post2 text wow123</Link>
 				<Link href="/posts2/YEA/text">Go to post2 text YEA</Link>
 				<Link href="/names/one/two/three">Go to post names</Link>
+				<Link href="/withHeader/home">Go to header worlds</Link>
+				<Link href="/withTabs/home">Go to tabs worlds</Link>
+				<Link href="/auth/home">Go to auth worlds</Link>
+				<Link href="/devMenu">Open global modal</Link>
 				<Link href="/_sitemap">Go to sitemap</Link>
 			</View>
 		</View>
