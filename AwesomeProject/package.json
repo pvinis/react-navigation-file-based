@@ -10,6 +10,10 @@
     "start": "react-native start",
     "test": "jest"
   },
+  "resolutions": {
+    "metro": "0.73.7",
+    "metro-resolver": "0.73.7"
+  },
   "dependencies": {
     "expo": "^47.0.0",
     "expo-constants": "~14.0.2",
