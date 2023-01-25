@@ -8,6 +8,7 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
+    "start-expo": "expo start --dev-client",
     "test": "jest"
   },
   "resolutions": {
@@ -22,6 +23,7 @@
     "expo-status-bar": "~1.4.2",
     "react": "18.2.0",
     "react-native": "0.71.1",
+    "react-native-gesture-handler": "^2.9.0",
     "react-native-safe-area-context": "4.4.1",
     "react-native-screens": "~3.18.0"
   },

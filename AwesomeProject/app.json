@@ -1,4 +1,12 @@
 {
   "name": "AwesomeProject",
-  "displayName": "AwesomeProject"
+  "displayName": "AwesomeProject",
+  "expo": {
+    "name": "my-app",
+    "slug": "my-app",
+    "scheme": "myapp",
+    "web": {
+      "bundler": "metro"
+    }
+  }
 }
